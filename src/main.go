@@ -1,5 +1,15 @@
 package main
 
+// so da para atribuir valor dentro de um code block:
+// var x int
+// x = 10 ESTA ERRADA
+// func main() {
+// 	x = 10 // SO FUNCIONA SE TIVER DENTRO DO CODE BLOCK
+// 	fmt.Println(x)
+//}
+// o ato de definir, criar, estruturar tipos compostos chamase-se composição.
+
+// tipo em GO são estáticos
 // := declaração curta de variável so pode ser usada dentro de funções/code blocks
 // var declaração normal de variável pode ser usada em qualquer lugar do código
 import (
